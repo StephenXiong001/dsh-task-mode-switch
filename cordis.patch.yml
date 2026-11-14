@@ -1,0 +1,10 @@
+# task-mode-switch bundle: one row that mounts the Host half and its browser half.
+#
+# Host half (index.js): registers /mode, re-composes a live task through the Agent
+# preset registry (started tasks included), and restarts the request series on the
+# first admitted step so the new tool catalog is not announced as deferred additions.
+# Browser half (client.js): registers the mode control into conversation.input.left
+# and drives it through the existing Remotes.
+- insert:
+    - id: task-mode-switch
+      name: 'dsh-task-mode-switch'

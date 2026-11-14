@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+*.log
+.DS_Store
+Thumbs.db
+
+# local-only working files (not part of the plugin)
+PUBLISHING.md
+.submission/
